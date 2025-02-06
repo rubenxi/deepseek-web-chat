@@ -19,12 +19,14 @@ Simple chat built in Python to talk to DeepSeek or any model running in Ollama w
 # Install
 Simply run in a Debian based system:
 ```
+chmod +x ./install.sh
 ./install.sh
 ```
 This will install all the packages needed and create a venv using Python3 and install all necessary libraries.
 
 # Run
 ```
+source ./OllamaWebPDF_env/bin/activate
 streamlit run ui.py
 ```
 
