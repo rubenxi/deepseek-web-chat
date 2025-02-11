@@ -4,3 +4,4 @@ langchain_community
 langchain_ollama
 pdfplumber
 chromadb>=0.4.23
+huggingface_hub
