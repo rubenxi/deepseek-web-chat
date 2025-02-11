@@ -15,7 +15,8 @@ It supports connection with local Ollama and HuggingFace.
 - langchain_ollama
 - pdfplumber
 - chromadb>=0.4.23
-- Ollama running in background
+- huggingface_hub
+- Ollama running in background for local connection
 
 # Install
 Simply run in a Debian based system:
