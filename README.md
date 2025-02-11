@@ -1,5 +1,6 @@
 # deepseek-web-chat
-Simple chat built in Python to talk to DeepSeek or any model running in Ollama with PDF reading capabilities
+Simple chat built in Python to talk to DeepSeek or any model running in Ollama with PDF reading capabilities.  
+It supports connection with local Ollama and HuggingFace.
 
 ![Screenshot from 2025-02-06 14-05-07](https://github.com/user-attachments/assets/f755bcde-7c72-4b5c-839e-fbe670552152)
 ![Screenshot from 2025-02-06 14-15-26](https://github.com/user-attachments/assets/6b4cb39f-d9b2-46c8-84c4-096229b90bef)
