@@ -79,7 +79,7 @@ def answer_question_simple(question):
     return chain.invoke({"question": question, "context": context})
 
 st.sidebar.title("Use HuggingFace server")
-server = st.sidebar.toggle("HuggingFace")
+server = st.sidebar.toggle("HuggingFace", value=True)
 st.sidebar.divider()
 uploaded_file = st.sidebar.file_uploader(
     "Upload PDF",
