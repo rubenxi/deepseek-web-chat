@@ -2,8 +2,8 @@
 Simple chat built in Python to talk to DeepSeek or any model running in Ollama with PDF reading capabilities.  
 It supports connection with local Ollama and HuggingFace.
 
-![Screenshot from 2025-02-06 14-05-07](https://github.com/user-attachments/assets/f755bcde-7c72-4b5c-839e-fbe670552152)
-![Screenshot from 2025-02-06 14-15-26](https://github.com/user-attachments/assets/6b4cb39f-d9b2-46c8-84c4-096229b90bef)
+![Screenshot from 2025-02-11 19-05-29](https://github.com/user-attachments/assets/0d390654-9a66-43af-ba85-06a43b50d5dd)
+![Screenshot from 2025-02-11 19-06-57](https://github.com/user-attachments/assets/2f42a46c-3795-4b32-89fa-9d00c2fc0a56)
 
 
 # Requirements
@@ -40,6 +40,9 @@ After that, run the app, and you can talk to the model (in this case deepseek-r1
 You can also upload PDF files, the model will read, remember and use them to answer your questions. When you upload the PDF, the chat will show a new option "Question about the PDF".
 
 The script takes the PDF file, splits it in vectors, stores them in ChromaDB and then uses them as context for the model.
+
+# Works online!
+There's an option to enable HuggingFace servers so it uses an online model (DeepSeek-R1-Distill-Qwen-32B).
 
 # Install and run the DeepSeek model in Debian
 Simply run in a Debian based system:
