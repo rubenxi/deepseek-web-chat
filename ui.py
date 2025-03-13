@@ -9,6 +9,11 @@ from langchain_ollama import OllamaEmbeddings
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_ollama.llms import OllamaLLM
 
+st.set_page_config(
+    layout="wide",
+    page_title="Simple DeepSeek Web Chat",
+)
+
 api_key = st.secrets["api_key"]
 model = "deepseek-r1:1.5b"
 template = """
