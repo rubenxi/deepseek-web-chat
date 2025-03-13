@@ -1,9 +1,10 @@
 # deepseek-web-chat
 Simple chat built in Python to talk to DeepSeek or any model running in Ollama with PDF reading capabilities.  
-It supports connection with local Ollama and HuggingFace.
+It supports connection with local Ollama and HuggingFace. It also has an option to choose a custom api key token in the simple online version.
 
 ![Screenshot from 2025-02-11 19-05-29](https://github.com/user-attachments/assets/0d390654-9a66-43af-ba85-06a43b50d5dd)
 ![Screenshot from 2025-02-11 19-06-57](https://github.com/user-attachments/assets/2f42a46c-3795-4b32-89fa-9d00c2fc0a56)
+![image](https://github.com/user-attachments/assets/1426d028-9327-45cd-b323-60ddcf1e2a2d)
 
 
 # Requirements
@@ -43,6 +44,8 @@ The script takes the PDF file, splits it in vectors, stores them in ChromaDB and
 
 # Works online!
 There's an option to enable HuggingFace servers so it uses an online model (DeepSeek-R1-Distill-Qwen-32B).
+
+Note: There's a limitation of uses per day with the default api key.
 
 # Install and run the DeepSeek model in Debian
 Simply run in a Debian based system:
